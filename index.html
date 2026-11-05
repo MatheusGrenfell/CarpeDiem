@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carpe Diem | Espaço para Casamentos e Eventos inesquecíveis</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Playfair Display & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- FontAwesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        gold: {
+                            50: '#FAF8F3',
+                            100: '#F3EDE1',
+                            300: '#D6C097',
+                            500: '#B89B5F',
+                            600: '#A38448',
+                            700: '#856A35',
+                        },
+                        forest: {
+                            800: '#1C3225',
+                            900: '#112218',
+                        }
+                    },
+                    fontFamily: {
+                        serif: ['"Playfair Display"', 'serif'],
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        .hero-bg {
+            background: linear-gradient(rgba(17, 34, 24, 0.65), rgba(17, 34, 24, 0.75)), url('https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+        }
+        .wood-bg {
+            background: linear-gradient(rgba(28, 50, 37, 0.92), rgba(28, 50, 37, 0.95)), url('https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+        }
+    </style>
+</head>
+<body class="font-sans text-gray-800 bg-slate-50 antialiased pb-20 md:pb-0">
+
+    <!-- Header Navigation -->
+    <header class="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-md z-40 border-b border-gray-100 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="#" class="flex items-center gap-2">
+                <span class="font-serif text-2xl sm:text-3xl font-bold tracking-tight text-forest-900">Carpe Diem</span>
+                <span class="text-xs uppercase tracking-widest text-gold-600 font-semibold block border-l border-gold-300 pl-2 hidden sm:block">Eventos & Casamentos</span>
+            </a>
+            
+            <div class="flex items-center gap-3 sm:gap-4">
+                <a href="tel:11930595197" class="hidden md:inline-flex items-center gap-2 px-4 py-2.5 rounded-full border border-forest-900 text-forest-900 font-medium hover:bg-forest-900 hover:text-white transition duration-300 text-sm">
+                    <i class="fa-solid fa-phone text-xs"></i>
+                    <span>(11) 93059-5197</span>
+                </a>
+                <a href="https://wa.me/5511930595197?text=Olá!%20Gostaria%20de%20mais%20informações%20sobre%20as%20datas%20disponíveis%20e%20orçamento%20no%20Carpe%20Diem." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-medium px-5 py-2.5 rounded-full transition duration-300 shadow-md hover:shadow-lg text-sm">
+                    <i class="fa-brands fa-whatsapp text-lg"></i>
+                    <span>Solicitar Orçamento</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative hero-bg pt-32 pb-24 md:pt-44 md:pb-36 text-white min-h-[90vh] flex items-center">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+            <!-- Badges -->
+            <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md px-4 py-1.5 rounded-full border border-white/20 text-gold-100 mb-6 text-sm">
+                <div class="flex text-amber-400 text-xs">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <span class="font-medium">4.3 estrelas no Google (307+ avaliações)</span>
+            </div>
+            
+            <h1 class="font-serif text-4xl sm:text-6xl md:text-7xl font-semibold leading-tight tracking-tight mb-6">
+                O Cenário Perfeito para o Seu <span class="italic text-gold-300 font-serif">"Sim"</span>
+            </h1>
+            
+            <p class="text-lg sm:text-xl text-gray-200 max-w-3xl mx-auto mb-10 leading-relaxed font-light">
+                Um refúgio inesquecível cercado pela natureza em Itapecerica da Serra. Infraestrutura completa com cerimônia ao ar livre e salão coberto de alto padrão.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-md mx-auto">
+                <a href="https://wa.me/5511930595197?text=Olá!%20Gostaria%20de%20mais%20informações%20sobre%20as%20datas%20disponíveis%20e%20orçamento%20no%20Carpe%20Diem." target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-8 py-4 rounded-full shadow-lg transition duration-300 text-base transform hover:-translate-y-0.5">
+                    <i class="fa-brands fa-whatsapp text-xl"></i>
+                    <span>Falar no WhatsApp</span>
+                </a>
+                <a href="tel:11930595197" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-white/15 hover:bg-white/25 text-white border border-white/40 font-semibold px-8 py-4 rounded-full backdrop-blur-sm transition duration-300 text-base">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>Ligar Agora</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visual Highlights / Features Grid -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-gold-600 uppercase tracking-widest text-xs font-bold mb-2">Por que escolher o Carpe Diem</h2>
+                <p class="font-serif text-3xl sm:text-4xl text-forest-900 font-semibold">Tudo o que seu grande dia precisa para ser memorável</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Card 1 -->
+                <div class="p-8 rounded-2xl bg-gold-50/50 border border-gold-100/80 hover:shadow-xl transition duration-300 flex flex-col items-start">
+                    <div class="w-14 h-14 rounded-full bg-forest-900 text-gold-300 flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-tree"></i>
+                    </div>
+                    <h3 class="font-serif text-xl font-bold text-forest-900 mb-3">Cerimônia ao Ar Livre</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">Altar emoldurado por árvores exuberantes e ar puro, criando uma atmosfera verdadeiramente mágica e romântica.</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="p-8 rounded-2xl bg-gold-50/50 border border-gold-100/80 hover:shadow-xl transition duration-300 flex flex-col items-start">
+                    <div class="w-14 h-14 rounded-full bg-forest-900 text-gold-300 flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-building-columns"></i>
+                    </div>
+                    <h3 class="font-serif text-xl font-bold text-forest-900 mb-3">Salão Coberto Amplo</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">Espaço sofisticado, pé-direito amplo, piso elegante e paredes rústicas refinadas para acomodar seus convidados com todo conforto.</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="p-8 rounded-2xl bg-gold-50/50 border border-gold-100/80 hover:shadow-xl transition duration-300 flex flex-col items-start">
+                    <div class="w-14 h-14 rounded-full bg-forest-900 text-gold-300 flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-champagne-glasses"></i>
+                    </div>
+                    <h3 class="font-serif text-xl font-bold text-forest-900 mb-3">Estrutura Completa</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">Espaço para pista de dança, ilha de buffet decorada, lounges de convivência e suporte com total acessibilidade.</p>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="p-8 rounded-2xl bg-gold-50/50 border border-gold-100/80 hover:shadow-xl transition duration-300 flex flex-col items-start">
+                    <div class="w-14 h-14 rounded-full bg-forest-900 text-gold-300 flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <h3 class="font-serif text-xl font-bold text-forest-900 mb-3">Excelente Localização</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">Localizado no Jardim Branca Flor em Itapecerica da Serra, oferecendo fácil acesso e tranquilidade total para seus convidados.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Showcase Grid -->
+    <section class="py-16 bg-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <span class="text-gold-600 uppercase tracking-widest text-xs font-bold">Galeria de Ambientes</span>
+                <h2 class="font-serif text-3xl sm:text-4xl text-forest-900 font-semibold mt-1">Conheça Nossos Espaços</h2>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="relative overflow-hidden rounded-2xl group shadow-md h-72">
+                    <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80" alt="Cerimônia de casamento ao ar livre" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex items-end p-6">
+                        <p class="text-white font-serif font-semibold text-lg">Área Externa & Bosque</p>
+                    </div>
+                </div>
+                <div class="relative overflow-hidden rounded-2xl group shadow-md h-72">
+                    <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=800&q=80" alt="Decoração de mesa de doces e bolo" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex items-end p-6">
+                        <p class="text-white font-serif font-semibold text-lg">Buffet & Decoração</p>
+                    </div>
+                </div>
+                <div class="relative overflow-hidden rounded-2xl group shadow-md h-72">
+                    <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=800&q=80" alt="Salão Coberto para Festa" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex items-end p-6">
+                        <p class="text-white font-serif font-semibold text-lg">Salão Principal de Festas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="py-20 wood-bg text-white relative">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+            <div class="inline-block p-3 rounded-full bg-gold-500/20 text-gold-300 mb-6">
+                <i class="fa-solid fa-quote-left text-3xl"></i>
+            </div>
+            
+            <p class="font-serif text-2xl sm:text-3xl md:text-4xl leading-relaxed italic text-gold-50 mb-8">
+                "10/10, perfeito, impecável. Não poderia ter escolhido local melhor para fazer nosso casamento."
+            </p>
+
+            <div class="flex items-center justify-center gap-3">
+                <div class="w-12 h-12 rounded-full bg-gold-300 text-forest-900 font-serif font-bold text-xl flex items-center justify-center shadow">
+                    DM
+                </div>
+                <div class="text-left">
+                    <h4 class="font-bold text-white text-base">Daniela Moreira</h4>
+                    <div class="flex items-center gap-2 text-xs text-gold-300">
+                        <div class="flex text-amber-400">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <span>• Avaliação no Google</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & Contact Section -->
+    <section class="py-20 bg-white" id="contato">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <!-- Contact Details -->
+                <div>
+                    <span class="text-gold-600 uppercase tracking-widest text-xs font-bold">Venha nos Conhecer</span>
+                    <h2 class="font-serif text-3xl sm:text-4xl text-forest-900 font-semibold mt-1 mb-6">Agende uma Visita Guiada</h2>
+                    <p class="text-gray-600 mb-8 leading-relaxed">
+                        Venha sentir de perto a energia e o encanto do Carpe Diem. Nossa equipe está pronta para apresentar todos os detalhes e ajudar a realizar a festa dos seus sonhos.
+                    </p>
+
+                    <div class="space-y-6 mb-8">
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-full bg-gold-100 text-gold-700 flex items-center justify-center shrink-0 mt-1">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Endereço</h4>
+                                <p class="text-gray-600 text-sm">R. do Moinho, 330 - Jardim Branca Flor<br>Itapecerica da Serra - SP, 06854-540</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-full bg-gold-100 text-gold-700 flex items-center justify-center shrink-0 mt-1">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Telefone / WhatsApp</h4>
+                                <p class="text-gray-600 text-sm">(11) 93059-5197</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-full bg-gold-100 text-gold-700 flex items-center justify-center shrink-0 mt-1">
+                                <i class="fa-solid fa-wheelchair"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Acessibilidade</h4>
+                                <p class="text-gray-600 text-sm">Espaço adaptado com acessibilidade para todos os convidados</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="https://wa.me/5511930595197?text=Olá!%20Gostaria%20de%20mais%20informações%20sobre%20as%20datas%20disponíveis%20e%20orçamento%20no%20Carpe%20Diem." target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-6 py-3.5 rounded-full shadow transition duration-300">
+                            <i class="fa-brands fa-whatsapp text-lg"></i>
+                            <span>Enviar Mensagem no WhatsApp</span>
+                        </a>
+                        <a href="tel:11930595197" class="inline-flex items-center justify-center gap-2 border border-forest-900 text-forest-900 hover:bg-forest-900 hover:text-white font-semibold px-6 py-3.5 rounded-full transition duration-300">
+                            <i class="fa-solid fa-phone text-sm"></i>
+                            <span>Ligar (11) 93059-5197</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Map Frame -->
+                <div class="rounded-3xl overflow-hidden shadow-2xl border border-gray-200 h-96 lg:h-[450px]">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.864273837424!2d-46.8335513237894!3d-23.685757266042786!2m3!1f0!2f0!3f0!2m3!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cfacd05534594b%3A0x58b372ee056cbff!2sCarpe%20diem!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr" 
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-forest-900 text-white py-10 border-t border-forest-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center sm:flex sm:justify-between sm:items-center">
+            <p class="font-serif text-xl font-semibold text-gold-300 mb-4 sm:mb-0">Carpe Diem</p>
+            <p class="text-xs text-gray-400">© Espaço Carpe Diem - Itapecerica da Serra / SP. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Fixed Bottom Sticky Bar for Mobile & Quick Actions -->
+    <div class="fixed bottom-0 left-0 right-0 bg-white/95 backdrop-blur-md border-t border-gray-200 p-3 z-50 flex items-center justify-around gap-2 md:hidden shadow-lg">
+        <a href="tel:11930595197" class="flex-1 flex items-center justify-center gap-2 bg-gray-100 text-forest-900 py-3 rounded-full font-semibold text-sm active:bg-gray-200">
+            <i class="fa-solid fa-phone text-emerald-600"></i>
+            <span>Ligar</span>
+        </a>
+        <a href="https://wa.me/5511930595197?text=Olá!%20Gostaria%20de%20mais%20informações%20sobre%20as%20datas%20disponíveis%20e%20orçamento%20no%20Carpe%20Diem." target="_blank" rel="noopener noreferrer" class="flex-1 flex items-center justify-center gap-2 bg-emerald-600 text-white py-3 rounded-full font-semibold text-sm active:bg-emerald-700 shadow">
+            <i class="fa-brands fa-whatsapp text-lg"></i>
+            <span>WhatsApp</span>
+        </a>
+    </div>
+
+</body>
+</html>
